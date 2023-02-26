@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">            
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            
+
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+
+
+
+        </nav>
+        <h1>Our Certificate & Online Programs for 2022</h1>
+    </section>
+
+
+    <!-- Blog page content------ -->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our certificate & online programs for 2022</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea deleniti aliquid tempora ad sapiente eos autem atque molestiae voluptatem natus. Ab ducimus ullam similique debitis labore, architecto eligendi, ipsa, alias totam eius doloribus consequuntur. Sit possimus deleniti tempore quam quo.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam numquam provident cumque culpa eveniet tempore facilis, similique mollitia modi placeat doloribus reprehenderit delectus consequuntur pariatur animi alias nihil dignissimos! Dolor nostrum, atque minus qui, blanditiis itaque aut dolorem nemo, nesciunt laborum natus repudiandae esse? Laboriosam.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque voluptatem et veniam quos quasi quod magni, fuga, reiciendis voluptates nobis consequatur nulla molestias debitis quisquam repellat temporibus qui omnis dolorem.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>29</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>26</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------about us content ------ -->
+
+    
+
+
+    <!-- course---- -->
+
+
+
+   
+
+    <!-- campus--- -->
+   
+
+    <!-- ----Facilities--- -->
+
+    
+    
+
+    <!-- ----testimonials------ -->
+
+    
+
+
+
+<!-- ---Call to Action----- -->
+
+
+
+<!-- -----footer----- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veritatis consequatur ea, <br>temporibus alias iure cumque autem ipsum. Est, voluptates?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Syed Zeeshan Haq</p>
+</section>
+
+    <!-- javascript for toggle menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
